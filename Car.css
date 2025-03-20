@@ -1,0 +1,14 @@
+.car{transform: scaleX(-1);height: 240px;position: fixed;bottom: 25px;}
+.bg{height:100vh;background-position: bottom;margin: 0px;padding: 0px;background-image:url("Background.jpg");background-repeat: repeat-x;width: 150vw;background-size: cover;}
+.Tyre1{width: 77px ;position: fixed;bottom: 79px;left: 72px;}
+.Tyre2{width: 77px ;position: fixed;bottom: 79px;left: 297px;}
+.body{position: relative;height: 100vh;margin: 0px;padding: 0px;}
+html,body{overflow-y: hidden;overflow-x: scroll;}
+.combo{height:500px;}
+
+.speed{position: fixed;top:50px;}
+@keyframes rotate {
+    0%{transform: rotate(0deg);
+    }
+    100%{transform: rotate(360deg);}
+}
